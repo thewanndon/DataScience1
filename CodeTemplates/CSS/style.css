@@ -1,0 +1,30 @@
+﻿body {
+    margin: 100px auto 250px auto;
+    max-width: 800px;
+    font-family: 'merriweather', 'jost';
+}
+h1 {
+    font-family: 'jost', sans-serif;
+}
+h2 {
+    font-family: 'jost', sans-serif;
+}
+h3 {
+    font-family: 'jost';
+}
+h4 {
+    font-family: 'jost', 'merriweather';
+}
+p {
+    font-family: 'merriweather';
+}
+@font-face {
+    font-family: 'jost';
+    src: url("Jost-VariableFont_wght.ttf") format('truetype');
+    /* Add more formats as needed */
+}
+
+@font-face {
+    font-family: 'merriweather';
+    src: url("Jost-Merriweather-Regular.ttf.ttf") format('truetype');
+}

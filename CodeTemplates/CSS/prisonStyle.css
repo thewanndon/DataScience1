@@ -1,0 +1,20 @@
+﻿body {
+    background-color: red;
+    margin-top: 10vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    font-size: 1em;
+}
+
+.title {
+    font-family: 'Bentham', serif;
+    color: white;
+    font-size:4em;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+}
+#pTop {
+    margin-top: 20vh;
+}
