@@ -1,0 +1,28 @@
+﻿body {
+    height: 3000px; /* This is just to create a scrollbar for demonstration purposes */
+}
+
+.checkpoint {
+    position: fixed; /* Setting the position to fixed */
+    top: 1000px; /* Initial top position of the image */
+    left: 25px;
+    
+}
+
+.centeredImg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    height: auto;
+    display: block;
+    animation: fadeIn 5s;
+}
+
+.worldIcon {
+    position: fixed;
+    top: 37.5px;
+    left: 37.5px;
+    transform: translate(-50%, -50%);
+}
