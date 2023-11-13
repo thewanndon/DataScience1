@@ -17,7 +17,7 @@
     width: 30vw;
     height: auto;
     display: block;
-    animation: fadeIn 5s;
+    transition: opacity 0.5s;
 }
 
 .worldIcon {

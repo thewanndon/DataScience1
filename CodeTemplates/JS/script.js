@@ -19,12 +19,15 @@ function scrollFunction() {
 
     for (let i = 0; i < images.length; i++) {
         const scPoint = document.documentElement.scrollTop
-        var img = document.querySelector('img[src="'+images[i]+'.png"]');
+        var img = document.querySelector('img[src="' + images[i] + '.png"]');
+       
         if (scPoint >= checkpoints[i] && scPoint < checkpoints[i + 1]) {
-            img.style.display = 'block';
+            img.style.opacity = 1;
         } else {
-            img.style.display = 'none';
+            img.style.opacity = 0;
         }
     }
 
 }
+
+
