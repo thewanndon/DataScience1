@@ -72,8 +72,11 @@ const bars = svg.selectAll(".bar")
     .attr("y", d => yScale(d.average_academic_performance))
     .attr("height", d => height - yScale(d.average_academic_performance))
     .style("fill", d => colorScale(d.average_academic_performance))
+    .style("stroke", "black")  // Set the border color to black
+    .style("stroke-width", "1px")  // Set the border width to 1px
     .on("mouseover", handleMouseOver)
     .on("mouseout", handleMouseOut);
+
 
 bars.append("text")
     .attr("class", "bar-label")
