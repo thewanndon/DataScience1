@@ -11,6 +11,16 @@
     text-align: center;
 }
 
+p {
+    font-size: 30px;
+}
+
+.boxHighlight {
+    background: border-box;
+    background-color: darkgray;
+    border-block: 
+}
+
 #title {
     font-family: 'Bentham', serif;
     font-family: 'Cabin', sans-serif;
