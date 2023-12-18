@@ -18,7 +18,8 @@ p {
 .boxHighlight {
     background: border-box;
     background-color: darkgray;
-    border-block: 
+    border-block: solid;
+    border-inline: solid;
 }
 
 #title {
